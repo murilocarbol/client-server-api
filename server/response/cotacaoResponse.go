@@ -1,5 +1,5 @@
 package response
 
-type ServerResponse struct {
+type CotacaoResponse struct {
 	Bid string `json:"bid"`
 }
