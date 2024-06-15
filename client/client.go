@@ -27,8 +27,6 @@ func BuscarCotacao() {
 		log.Panicf("erro a criar a requisição %v", err)
 	}
 
-	log.Printf(" %s", req)
-
 	client := &http.Client{}
 	resp, err := client.Do(req)
 	if err != nil {
